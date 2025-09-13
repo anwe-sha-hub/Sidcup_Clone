@@ -3,7 +3,7 @@
 A responsive **front-end clone** of the official **Sidcup Family Golf** website.  
 Built with **HTML, CSS, and JavaScript**, this project recreates the look and feel of the real site while sharpening my layout, animation, and responsive-design skills.
 
-🔗 **Live Demo:** [View Site](#) *(replace `#` with your GitHub Pages / Netlify / Vercel link)*  
+🔗 **Live Demo:** [View Site](#) 
 
 ---
 
