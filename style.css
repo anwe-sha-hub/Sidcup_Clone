@@ -111,7 +111,7 @@ video {
 }
 
 #page2 {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     z-index: 10;
 }
@@ -199,4 +199,106 @@ video {
     font-size: 19px;
     line-height: 36px;
     padding-top: 25px;
+}
+
+#cards-container{
+    /* background-color: red; */
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+gap:70px;
+position: relative;
+    z-index:10;
+}
+
+.card{
+    height: 90%;
+    width:27%;
+    /* background-color: blue; */
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+transition:all ease  0.6s;
+}
+#card1{
+    background-image: url(assets/card1.png);
+    position: relative;
+}
+#card2{
+    background-image: url(assets/card2.png);
+     position: relative;
+}
+#card3{
+    background-image: url(assets/card3.png);
+     position: relative;
+}
+.card h3{
+    text-transform: uppercase;
+    font-size: 40px;
+    position: absolute;
+    bottom: 25px;
+    line-height:1.2;
+    font-weight: 900;
+    left:15px;
+    overflow: hidden;
+    opacity:1;
+     transition:all ease  0.6s;
+}
+.card:hover h3{
+    visibility: hidden;
+    opacity: 0;
+
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #95C11E;
+    padding-top: 150px;
+    padding: 20px;
+    opacity:0;
+    transition:all ease  0.6s;
+}
+.overlay h4{
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight:800;
+    white-space: nowrap;
+    margin-bottom: 20px;
+
+}
+.overlay p{
+    color: #000;
+    font-size: 18px;
+    line-height: 20px;
+}
+.card:hover .overlay{
+opacity:1;
+}
+
+.card:hover{
+    transform:rotate3d(-1,-1,0,20deg);
+}
+#green-div{
+    height: 30vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to left bottom,#119f3a,#ace022);
+}
+#green-div h4{
+    width:45%;
+    line-height: 50px;
+    text-align: center;
+    font-size:23px;
+    font-weight: 800;
+    color: #000;
+    text-transform: uppercase;
+}
+#green-div img{
+    height: 100%;
+    object-fit: cover;
+    width: 14%;
 }
