@@ -22,6 +22,18 @@ Built with **HTML, CSS, and JavaScript**, this project recreates the look and fe
 - **GSAP** – animations and scroll effects  
 
 ---
+## 📸 Preview
+Here’s a quick look at my Sidcup Family Golf clone:
+
+### 🖥️ Desktop View
+
+**Hero Section**
+![Hero Section](./assets/preview_1.png.png)
+
+**About Us Section**
+![About Us](./assets/preview_2.png)
+
+---
 
 ## 📂 Project Structure
 Sidcup_Clone/
