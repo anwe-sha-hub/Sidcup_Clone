@@ -19,19 +19,7 @@ h4all.forEach(function(elem){
         crsr.style.backgroundColor="#ace022"
     })
 })
-var scroll=document.querySelector("#arrow i")
-scroll.forEach(function(elem){
-    elem.addEventListener("mouseenter",function(){
-        crsr.style.scale=3
-        crsr.style.border="1px solid #fff"
-        crsr.style.backgroundColor="transparent"
-    })
-     elem.addEventListener("mouseleave",function(){
-        crsr.style.scale=1
-        crsr.style.border="0px solid #ace022"
-        crsr.style.backgroundColor="#ace022"
-    })
-})
+
 gsap.to(".nav",{
     backgroundColor:"#000",
     duration:0.5,
