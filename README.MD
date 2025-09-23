@@ -38,7 +38,5 @@ Hi! I'm **Anwesha Jha** 👋
 - 🌱 Currently learning **Full-Stack Web Development**  
 - 🧠 Practicing **DSA** alongside frontend  
 
----
-
 ## 🔗 Connect With Me
 - 🐙 GitHub: [anwe-sha-hub](https://github.com/anwe-sha-hub)  
